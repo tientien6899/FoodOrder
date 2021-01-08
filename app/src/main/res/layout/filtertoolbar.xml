@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/yellow">
+
+    <ImageView
+        android:id="@+id/filter"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_controls"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/search_white_rect"
+        android:hint="Search Restaurant"
+        android:textColor="@color/black"
+        android:textSize="11.7sp"
+        android:padding="10dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="37dp"
+        android:inputType="text"
+        android:fontFamily="@font/sf_pro_display_medium"
+        android:drawableRight="@drawable/ic_search_gray"
+        android:textColorHint="#7e7e7e"/>
+
+</android.support.v7.widget.Toolbar>
